@@ -693,47 +693,52 @@ globalPage::globalPage (QWidget *prnt, PFM_GLOBAL *pfm_glb, FLAGS *fl, GLOBAL_DI
 bool 
 globalPage::validatePage ()
 {
-  if ((!wsClass->isChecked ()) && (!landClass->isChecked ()) && (!waterClass->isChecked ()))
+  if (pfm_global->data_type == L_CZMIL)
     {
-      QMessageBox::critical (this, "pfmLoad", tr ("You must select one or more of <b>Load water surface data</b>, <b>Load land data</b>, or "
-                                                  "<b>Load water data</b> in the CZMIL tab to continue!"));
-
-      return (false);
-    }
-
-  bool data = false;
-
-  for (int32_t i = 0 ; i < 9 ; i++)
-    {
-      if (czmilChan[i]->isChecked ())
+      if ((!wsClass->isChecked ()) && (!landClass->isChecked ()) && (!waterClass->isChecked ()))
         {
-          data = true;
-          break;
+          QMessageBox::critical (this, "pfmLoad", tr ("You must select one or more of <b>Load water surface data</b>, <b>Load land data</b>, or "
+                                                      "<b>Load water data</b> in the CZMIL tab to continue!"));
+
+          return (false);
         }
+
+      bool data = false;
+
+      for (int32_t i = 0 ; i < 9 ; i++)
+        {
+          if (czmilChan[i]->isChecked ())
+            {
+              data = true;
+              break;
+            }
+        }
+
+      if (!data)
+        {          
+          QMessageBox::critical (this, "pfmLoad",
+                                 tr ("You must select one or more of the <b>Load channel data</b> boxes in the CZMIL tab to continue!"));
+        }
+
+      if (HFfilt->isChecked ())
+        {
+          QMessageBox msgBox (this);
+          msgBox.setIcon (QMessageBox::Question);
+          msgBox.setInformativeText (tr ("You have requested to load CZMIL data that has been invalidated by a HydroFusion filter. "
+                                         "You should only do this if you are testing a new version of HydroFusion and "
+                                         "expect that there might be filtered returns that need to be restored.<br><br>"
+                                         "Do you reallly want to do this?"));
+          msgBox.setStandardButtons (QMessageBox::Yes | QMessageBox::No);
+          msgBox.setDefaultButton (QMessageBox::No);
+          int32_t ret = msgBox.exec ();
+
+          if (ret == QMessageBox::No) HFfilt->setChecked (false);
+        }
+
+      return (data);
     }
 
-  if (!data)
-    {          
-      QMessageBox::critical (this, "pfmLoad",
-                             tr ("You must select one or more of the <b>Load channel data</b> boxes in the CZMIL tab to continue!"));
-    }
-
-  if (HFfilt->isChecked ())
-    {
-      QMessageBox msgBox (this);
-      msgBox.setIcon (QMessageBox::Question);
-      msgBox.setInformativeText (tr ("You have requested to load CZMIL data that has been invalidated by a HydroFusion filter. "
-                                     "You should only do this if you are testing a new version of HydroFusion and "
-                                     "expect that there might be filtered returns that need to be restored.<br><br>"
-                                     "Do you reallly want to do this?"));
-      msgBox.setStandardButtons (QMessageBox::Yes | QMessageBox::No);
-      msgBox.setDefaultButton (QMessageBox::No);
-      int32_t ret = msgBox.exec ();
-
-      if (ret == QMessageBox::No) HFfilt->setChecked (false);
-    }
-
-  return (data);
+  return (true);
 }
 
 

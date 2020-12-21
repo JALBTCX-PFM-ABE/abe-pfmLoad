@@ -389,194 +389,194 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="698"/>
+        <location filename="globalPage.cpp" line="700"/>
         <source>You must select one or more of &lt;b&gt;Load water surface data&lt;/b&gt;, &lt;b&gt;Load land data&lt;/b&gt;, or &lt;b&gt;Load water data&lt;/b&gt; in the CZMIL tab to continue!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="718"/>
+        <location filename="globalPage.cpp" line="720"/>
         <source>You must select one or more of the &lt;b&gt;Load channel data&lt;/b&gt; boxes in the CZMIL tab to continue!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="725"/>
+        <location filename="globalPage.cpp" line="727"/>
         <source>You have requested to load CZMIL data that has been invalidated by a HydroFusion filter. You should only do this if you are testing a new version of HydroFusion and expect that there might be filtered returns that need to be restored.&lt;br&gt;&lt;br&gt;Do you reallly want to do this?</source>
         <oldsource>You have selected to load data that has been invalidated by a HydroFusion filter. You should only do this if you are testing a new version of HydroFusion and expect that there might be filtered returns that need to be restored.&lt;br&gt;&lt;br&gt;Do you reallly want to do this?</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="756"/>
+        <location filename="globalPage.cpp" line="761"/>
         <source>pfmLoad GCS Compatible Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="757"/>
+        <location filename="globalPage.cpp" line="762"/>
         <source>Do not use GCS compatible mode unless you are going to reprocess the data in the PFM using Optech&apos;s GCS program!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="782"/>
+        <location filename="globalPage.cpp" line="787"/>
         <source>Since you are turning off the CZMIL Reference Water surface flag you may want to turn off loading CZMIL Water surface data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="813"/>
+        <location filename="globalPage.cpp" line="818"/>
         <source>pfmLoad Time Attribute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="813"/>
-        <location filename="globalPage.cpp" line="917"/>
-        <location filename="globalPage.cpp" line="1105"/>
-        <location filename="globalPage.cpp" line="1274"/>
-        <location filename="globalPage.cpp" line="1460"/>
-        <location filename="globalPage.cpp" line="1636"/>
-        <location filename="globalPage.cpp" line="1805"/>
+        <location filename="globalPage.cpp" line="818"/>
+        <location filename="globalPage.cpp" line="922"/>
+        <location filename="globalPage.cpp" line="1110"/>
+        <location filename="globalPage.cpp" line="1279"/>
+        <location filename="globalPage.cpp" line="1465"/>
+        <location filename="globalPage.cpp" line="1641"/>
+        <location filename="globalPage.cpp" line="1810"/>
         <source>Only %1 index attributes are allowed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="833"/>
-        <location filename="globalPage.cpp" line="917"/>
+        <location filename="globalPage.cpp" line="838"/>
+        <location filename="globalPage.cpp" line="922"/>
         <source>pfmLoad GSF Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="847"/>
-        <location filename="globalPage.cpp" line="1027"/>
-        <location filename="globalPage.cpp" line="1203"/>
-        <location filename="globalPage.cpp" line="1372"/>
-        <location filename="globalPage.cpp" line="1558"/>
-        <location filename="globalPage.cpp" line="1734"/>
+        <location filename="globalPage.cpp" line="852"/>
+        <location filename="globalPage.cpp" line="1032"/>
+        <location filename="globalPage.cpp" line="1208"/>
+        <location filename="globalPage.cpp" line="1377"/>
+        <location filename="globalPage.cpp" line="1563"/>
+        <location filename="globalPage.cpp" line="1739"/>
         <source>Toggle %1 attribute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="862"/>
-        <location filename="globalPage.cpp" line="1049"/>
-        <location filename="globalPage.cpp" line="1218"/>
-        <location filename="globalPage.cpp" line="1403"/>
-        <location filename="globalPage.cpp" line="1580"/>
-        <location filename="globalPage.cpp" line="1749"/>
+        <location filename="globalPage.cpp" line="867"/>
+        <location filename="globalPage.cpp" line="1054"/>
+        <location filename="globalPage.cpp" line="1223"/>
+        <location filename="globalPage.cpp" line="1408"/>
+        <location filename="globalPage.cpp" line="1585"/>
+        <location filename="globalPage.cpp" line="1754"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="863"/>
+        <location filename="globalPage.cpp" line="868"/>
         <source>Clear all selected attributes in the GSF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="869"/>
-        <location filename="globalPage.cpp" line="1056"/>
-        <location filename="globalPage.cpp" line="1225"/>
-        <location filename="globalPage.cpp" line="1410"/>
-        <location filename="globalPage.cpp" line="1587"/>
-        <location filename="globalPage.cpp" line="1756"/>
+        <location filename="globalPage.cpp" line="874"/>
+        <location filename="globalPage.cpp" line="1061"/>
+        <location filename="globalPage.cpp" line="1230"/>
+        <location filename="globalPage.cpp" line="1415"/>
+        <location filename="globalPage.cpp" line="1592"/>
+        <location filename="globalPage.cpp" line="1761"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="870"/>
+        <location filename="globalPage.cpp" line="875"/>
         <source>Close the GSF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1001"/>
-        <location filename="globalPage.cpp" line="1105"/>
+        <location filename="globalPage.cpp" line="1006"/>
+        <location filename="globalPage.cpp" line="1110"/>
         <source>pfmLoad HOF Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1050"/>
+        <location filename="globalPage.cpp" line="1055"/>
         <source>Clear all selected attributes in the HOF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1057"/>
+        <location filename="globalPage.cpp" line="1062"/>
         <source>Close the HOF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1189"/>
-        <location filename="globalPage.cpp" line="1274"/>
+        <location filename="globalPage.cpp" line="1194"/>
+        <location filename="globalPage.cpp" line="1279"/>
         <source>pfmLoad TOF Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1219"/>
+        <location filename="globalPage.cpp" line="1224"/>
         <source>Clear all selected attributes in the TOF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1226"/>
+        <location filename="globalPage.cpp" line="1231"/>
         <source>Close the TOF attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1358"/>
-        <location filename="globalPage.cpp" line="1459"/>
+        <location filename="globalPage.cpp" line="1363"/>
+        <location filename="globalPage.cpp" line="1464"/>
         <source>pfmLoad CZMIL Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1397"/>
+        <location filename="globalPage.cpp" line="1402"/>
         <source>Enter What&apos;s This mode for help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1404"/>
+        <location filename="globalPage.cpp" line="1409"/>
         <source>Clear all selected attributes in the CZMIL attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1411"/>
+        <location filename="globalPage.cpp" line="1416"/>
         <source>Close the CZMIL attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1544"/>
-        <location filename="globalPage.cpp" line="1636"/>
+        <location filename="globalPage.cpp" line="1549"/>
+        <location filename="globalPage.cpp" line="1641"/>
         <source>pfmLoad LAS Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1581"/>
+        <location filename="globalPage.cpp" line="1586"/>
         <source>Clear all selected attributes in the LAS attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1588"/>
+        <location filename="globalPage.cpp" line="1593"/>
         <source>Close the LAS attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1720"/>
-        <location filename="globalPage.cpp" line="1805"/>
+        <location filename="globalPage.cpp" line="1725"/>
+        <location filename="globalPage.cpp" line="1810"/>
         <source>pfmLoad BAG Attributes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1750"/>
+        <location filename="globalPage.cpp" line="1755"/>
         <source>Clear all selected attributes in the BAG attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1757"/>
+        <location filename="globalPage.cpp" line="1762"/>
         <source>Close the BAG attribute dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1892"/>
-        <location filename="globalPage.cpp" line="1918"/>
-        <location filename="globalPage.cpp" line="1986"/>
+        <location filename="globalPage.cpp" line="1897"/>
+        <location filename="globalPage.cpp" line="1923"/>
+        <location filename="globalPage.cpp" line="1991"/>
         <source>pfmLoad SRTM2 data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="globalPage.cpp" line="1893"/>
-        <location filename="globalPage.cpp" line="1919"/>
-        <location filename="globalPage.cpp" line="1987"/>
+        <location filename="globalPage.cpp" line="1898"/>
+        <location filename="globalPage.cpp" line="1924"/>
+        <location filename="globalPage.cpp" line="1992"/>
         <source>WARNING WARNING WARNING WARNING WARNING WARNING WARNING
 
 If your PFM file includes any areas outside of the United States it will be limited distribution due to the inclusion of NGA SRTM2 topography data.  If you do not want to include the SRTM2 data please select &apos;Exclude SRTM2 data&apos; from the &apos;Optional flag settings&apos;.

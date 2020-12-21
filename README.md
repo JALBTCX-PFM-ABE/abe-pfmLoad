@@ -12,6 +12,8 @@ The PFM ABE suite of tools consists of many individual components that each carr
 
 |App Version|Release Date|ABE Version|Notes|
 |-------|------------|-----|---|
-|V8.13|08/07/19|V7.0.0.0|  |
+|V8.13|08/07/19|V7.0.0.0|JCD - Now that get_area_mbr supports shape files we don't need to handle it differently from the other area file types.  |
+|V8.14|01/16/20|V7.0.0.1|JCD - CZMIL Option changes|
+
 
 ## Notes

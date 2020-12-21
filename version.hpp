@@ -45,7 +45,7 @@
 
 #ifndef VERSION
 
-#define     VERSION     "PFM Software - pfmLoad V8.13 - 08/07/19"
+#define     VERSION     "PFM Software - pfmLoad V8.14 - 01/16/20"
 
 #endif
 
@@ -2055,5 +2055,12 @@
 
     - Now that get_area_mbr supports shape files we don't need to handle it differently from the other
       area file types.
+
+
+    Version 8.14
+    Jan C. Depner (PFM Software)
+    01/16/20
+
+    - Don't gripe about CZMIL options if you're not loading CZMIL data.
 
 </pre>*/
